@@ -1,0 +1,1230 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY untitled-ontology-46 "http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#" >
+    <!ENTITY untitled-ontology-5 "http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-54#"
+     xml:base="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-54"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-5="http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#"
+     xmlns:untitled-ontology-46="http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-54"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/3/untitled-ontology-5#isSynonymOf -->
+
+    <owl:AnnotationProperty rdf:about="&untitled-ontology-5;isSynonymOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#имаИзточник -->
+
+    <rdf:Description rdf:about="&untitled-ontology-46;имаИзточник"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#критерииЗаУстойчивост -->
+
+    <rdf:Description rdf:about="&untitled-ontology-46;критерииЗаУстойчивост"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#регулираСеОт -->
+
+    <rdf:Description rdf:about="&untitled-ontology-46;регулираСеОт"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#ENplus -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;ENplus">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Сертификати"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#FSC -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;FSC">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Сертификати"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#RED_II -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;RED_II">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Директиви"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#RED_III -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;RED_III">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Директиви"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#SBP -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;SBP">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Сертификати"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#БЕ_Източник -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;БЕ_Източник">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биоенергия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#БЕ_Регулации -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;БЕ_Регулации">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биоенергия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Бе_Верига_на_доставките -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Бе_Верига_на_доставките">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биоенергия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Биогорива -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Биогорива">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Тип_на_БЕ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Биоенергия -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Биоенергия"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Биомаса -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Биомаса">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;БЕ_Източник"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Директиви -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Директиви">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;БЕ_Регулации"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Електрическа_БЕ -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Електрическа_БЕ">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Тип_на_БЕ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Закони -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Закони">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;БЕ_Регулации"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Критерии_за_устойчивост -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Критерии_за_устойчивост">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Устойчива_БЕ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Международни -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Международни">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Закони"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Национални -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Национални">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Закони"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Неустойчива_БЕ -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Неустойчива_БЕ">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биоенергия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Пазар -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Пазар">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Бе_Верига_на_доставките"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Сертификати -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Сертификати">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Стандарти"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Склад -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Склад">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Бе_Верига_на_доставките"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Стандарти -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Стандарти">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;БЕ_Регулации"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Тип_на_БЕ -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Тип_на_БЕ">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биоенергия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Топлинна_БЕ -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Топлинна_БЕ">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Тип_на_БЕ"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Транспорт -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Транспорт">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Бе_Верига_на_доставките"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Устойчива_БЕ -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Устойчива_БЕ">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биоенергия"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Устойчива_Биомаса -->
+
+    <owl:Class rdf:about="&untitled-ontology-46;Устойчива_Биомаса">
+        <rdfs:subClassOf rdf:resource="&untitled-ontology-46;Биомаса"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-51#CSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-51#CSD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-51#Type_of_SD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-51#Type_of_SD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-51#CSD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-52#ESD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-52#ESD"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-52#Type_of_ESD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-52#Type_of_ESD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-52#ESD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-53#SBE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-53#SBE"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-53#Type_of_SBE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-53#Type_of_SBE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/adi/ontologies/2026/9/untitled-ontology-53#SBE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Access_to_Primary_Health_Care -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Access_to_Primary_Health_Care">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Adult_Literacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Adult_Literacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Education_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Adult_Secondary_Schooling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Adult_Secondary_Schooling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Education_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Ambient_Concentration_of_Air_Pollutants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Ambient_Concentration_of_Air_Pollutants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Atmoshere_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Annual_Energy_Consumption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Annual_Energy_Consumption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Arable_and_Permanent_Cropland_Areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Arable_and_Permanent_Cropland_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Land_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Atmoshere_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Atmoshere_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Biodiversity_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Biodiversity_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Carbon_Dioxide_Emmisions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Carbon_Dioxide_Emmisions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Atmoshere_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Change_in_Threat_Status_of_Species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Change_in_Threat_Status_of_Species">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Biodiversity_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Sustainable_development_in_economy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Current_Account_Deficit_as_Percentage_of_GDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Current_Account_Deficit_as_Percentage_of_GDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Global_Economic_Partnership_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#DS_in_manufacturing,_engineering_and_construction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#DS_in_manufacturing,_engineering_and_construction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Debt_to_GNI_Ratio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Debt_to_GNI_Ratio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Demographic_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Demographic_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Dependency_Ratio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Dependency_Ratio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Demographic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Education_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Education_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Employment-Population_Ratio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Employment-Population_Ratio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Enrolment_in_Primery_Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Enrolment_in_Primery_Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Education_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Fish_Stoks_in_Safe_Biological_Limits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Fish_Stoks_in_Safe_Biological_Limits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Oceans_Seas_Coasts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Freshwater_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Freshwater_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#GDP_per_Capita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#GDP_per_Capita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Generation_of_Hazardous_Waste -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Generation_of_Hazardous_Waste">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Global_Economic_Partnership_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Global_Economic_Partnership_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Governance_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Governance_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Households_Without_Electricity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Households_Without_Electricity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Immunization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Immunization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Oceans_Seas_Coasts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Oceans_Seas_Coasts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Intensity_of_Energy_Use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Intensity_of_Energy_Use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#International_Homicides -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#International_Homicides">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Governance_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Internet_Users -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Internet_Users">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Investment_Share_in_GDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Investment_Share_in_GDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Labor_Productivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Labor_Productivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Land_Area_Covered_by_Forests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Land_Area_Covered_by_Forests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Land_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Land_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Land_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Last_Grade_of_Primery_Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Last_Grade_of_Primery_Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Education_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Life_Below_National_Poverty_Line -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Life_Below_National_Poverty_Line">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Life_Expectancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Life_Expectancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Life_in_Hazard_Prone_Areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Life_in_Hazard_Prone_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Natural_Hazards_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Material_Intensity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Material_Intensity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Modal_Split_of_Passenger_Transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Modal_Split_of_Passenger_Transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Morbidity_of_Major_Diseases -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Morbidity_of_Major_Diseases">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Natural_Hazards_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Natural_Hazards_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Net_Official_Development_Assistance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Net_Official_Development_Assistance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Global_Economic_Partnership_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Nutritional_Status_of_Children -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Nutritional_Status_of_Children">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Ozone_Depleting_Substances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Ozone_Depleting_Substances">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Atmoshere_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Paying_Bribes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Paying_Bribes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Governance_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Population_Growth_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Population_Growth_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Demographic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Population_Living_Coastal_Areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Population_Living_Coastal_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Oceans_Seas_Coasts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Presence_of_Faecal_Coliforms_in_Fresh_Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Presence_of_Faecal_Coliforms_in_Fresh_Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Freshwater_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Protected_Marine_Areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Protected_Marine_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Oceans_Seas_Coasts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Ratio_of_Share_National_Income -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Ratio_of_Share_National_Income">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_culture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_cycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_cycle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_strategy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SDE_strategy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Components_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_in_governmental_activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_in_governmental_activities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_in_intellectual_activities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_in_intellectual_activities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_in_services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_in_services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_of_natural_resources_industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#SD_of_natural_resources_industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Share_of_Women_in_Wage_Employment_in_Non-Agricultural_Sector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Share_of_Women_in_Wage_Employment_in_Non-Agricultural_Sector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Sustainable_development_in_economy -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Sustainable_development_in_economy">
+        <rdfs:seeAlso xml:lang="en">SDE</rdfs:seeAlso>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Terrestrial_Areas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Terrestrial_Areas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Biodiversity_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Tourism_Contribution_to_GDP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Tourism_Contribution_to_GDP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Economic_Development_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Type_of_SDE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Sustainable_development_in_economy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Under-Five_Mortality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Under-Five_Mortality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Health_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Urban_Population_Living_in_Slums -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Urban_Population_Living_in_Slums">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Usage_of_Improoved_Water_Source -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Usage_of_Improoved_Water_Source">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Usage_of_Improved_Sanitation_Facilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Usage_of_Improved_Sanitation_Facilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Poverty"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Usage_of_Water_Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Usage_of_Water_Resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Freshwater_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Waste_Treatment_and_Disposal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Waste_Treatment_and_Disposal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Indicator_of_Consumption_and_Production_Patterns"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Water_Use_for_Economic_Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Water_Use_for_Economic_Activity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2018/4/untitled-ontology-6#Freshwater_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_drinking_water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_drinking_water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_goods -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_goods">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_learning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Access_to_learning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Accessibility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Citizen_engagement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Citizen_engagement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Culture_SD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Culture_SD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Economic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Economic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Engaged_governancy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Engaged_governancy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Global_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Global_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Housing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Housing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Informational -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Informational">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Mathematical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Mathematical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#National_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#National_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Quality_of_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_goal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_goal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_in_an_organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_in_an_organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_indicator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_metric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_metric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_urban_form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#SSD_urban_form">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Democracy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Basic_indicator"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development">
+        <rdfs:label xml:lang="en">SSD</rdfs:label>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Social sustainability</untitled-ontology-5:isSynonymOf>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Social sustainable development</untitled-ontology-5:isSynonymOf>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Sustainability of the society</untitled-ontology-5:isSynonymOf>
+        <untitled-ontology-5:isSynonymOf xml:lang="en">Sustainable development of the society</untitled-ontology-5:isSynonymOf>
+        <rdfs:comment xml:lang="en">The ability of the community to develop the processes and structures necessary for its existence that support long-term relationships between nature and the economy.</rdfs:comment>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Social_Sustainable_Development"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_dimension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD_by_method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/boriana/ontologies/2020/4/untitled-ontology-2#Type_of_SSD"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Агро -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-46;Агро">
+        <rdf:type rdf:resource="&untitled-ontology-46;БЕ_Източник"/>
+        <rdf:type rdf:resource="&untitled-ontology-46;Биоенергия"/>
+        <rdf:type rdf:resource="&untitled-ontology-46;Биомаса"/>
+        <untitled-ontology-46:имаИзточник rdf:resource="&untitled-ontology-46;Агро"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Дървесна -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-46;Дървесна">
+        <rdf:type rdf:resource="&untitled-ontology-46;БЕ_Източник"/>
+        <rdf:type rdf:resource="&untitled-ontology-46;Биоенергия"/>
+        <rdf:type rdf:resource="&untitled-ontology-46;Биомаса"/>
+        <untitled-ontology-46:имаИзточник rdf:resource="&untitled-ontology-46;Дървесна"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adi/ontologies/2026/7/untitled-ontology-46#Отпадъци -->
+
+    <owl:NamedIndividual rdf:about="&untitled-ontology-46;Отпадъци">
+        <rdf:type rdf:resource="&untitled-ontology-46;БЕ_Източник"/>
+        <rdf:type rdf:resource="&untitled-ontology-46;Биоенергия"/>
+        <rdf:type rdf:resource="&untitled-ontology-46;Биомаса"/>
+        <untitled-ontology-46:имаИзточник rdf:resource="&untitled-ontology-46;Отпадъци"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
